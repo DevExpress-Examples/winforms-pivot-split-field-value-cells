@@ -52,6 +52,7 @@ namespace XtraPivotGrid_SplittingCells {
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.OptionsCustomization.AllowDrag = false;
             this.pivotGridControl1.OptionsCustomization.AllowFilter = false;
+            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized;
             this.pivotGridControl1.Size = new System.Drawing.Size(919, 320);
             this.pivotGridControl1.TabIndex = 0;
             this.pivotGridControl1.FieldValueDisplayText += new DevExpress.XtraPivotGrid.PivotFieldDisplayTextEventHandler(this.pivotGridControl1_FieldValueDisplayText);
