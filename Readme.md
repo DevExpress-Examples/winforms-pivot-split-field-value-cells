@@ -5,8 +5,7 @@
 
 # Pivot Grid for WinForms - Split Field Value Cells
 
-The following example demonstrates how to split field value cells. In this example, the Grand Total column header is split into two cells: _Price_ and _Count_. In this example, the Grand Total column header is split into two cells: Price and Count. To do this, the CustomFieldValueCells event is handled, and the event parameter's Split method is used. Cells that should be split are identified by a predicate that returns true for those cells. The quantity, size and captions of newly created cells are specified by an array of cell definitions (the FieldValueSplitData objects).
-
+The following example demonstrates how to split field value cells. In this example, the Grand Total column header is split into two cells: _Price_ and _Count_. 
 ![Pivot Grid](images/pivotgrid.png)
 
 ## Files to Review
@@ -16,6 +15,14 @@ The following example demonstrates how to split field value cells. In this examp
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 <!-- default file list end -->
+
+## Example Overview 
+
+Handle the [CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event and call the event parameter's [Split](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotCustomFieldValueCellsEventArgsBase-2.Split(Boolean--Predicate-T2---IList-FieldValueSplitData-)) method. Cells that should be split are identified by a predicate that returns true for those cells. The quantity, size and captions of newly created cells are specified by an array of cell definitions (the FieldValueSplitData objects).
+
+## Documentation 
+
+[Field Value](https://docs.devexpress.com/WindowsForms/1694/controls-and-libraries/pivot-grid/ui-elements/field-value)
 
 ## More Examples
 
