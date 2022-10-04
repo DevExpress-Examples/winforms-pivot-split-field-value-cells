@@ -6,6 +6,7 @@
 # Pivot Grid for WinForms - Split Field Value Cells
 
 The following example demonstrates how to split field value cells. In this example, the Grand Total column header is split into two cells: _Price_ and _Count_. 
+
 ![Pivot Grid](images/pivotgrid.png)
 
 ## Files to Review
