@@ -19,7 +19,7 @@ The following example demonstrates how to split field value cells. In this examp
 
 ## Example Overview 
 
-Handle the [CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event and call the event parameter's [Split](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotCustomFieldValueCellsEventArgsBase-2.Split(Boolean--Predicate-T2---IList-FieldValueSplitData-)) method. Cells that should be split are identified by a predicate that returns true for those cells. The quantity, size and captions of newly created cells are specified by an array of cell definitions (the FieldValueSplitData objects).
+Handle the [CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event and call the event parameter's [Split](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotCustomFieldValueCellsEventArgsBase-2.Split(Boolean--Predicate-T2---IList-FieldValueSplitData-)) method. Cells that should be split are identified by a predicate that returns true for those cells. The quantity, size, and captions of newly created cells are specified by an array of cell definitions (the FieldValueSplitData objects).
 
 ## Documentation 
 
