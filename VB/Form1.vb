@@ -27,15 +27,15 @@ Namespace XtraPivotGrid_SplittingCells
                 Return
             End If
 
-            ' Creates a predicate that returns true for the Grand Total
-            ' headers, and false for any other column/row header.
+        ' Creates a predicate that returns true for the Grand Total headers,
+            ' and false for any other column/row header.
             ' Only cells that match this predicate are split.
             Dim condition As New Predicate(Of FieldValueCell)(Function(matchCell As FieldValueCell) matchCell.ValueType =
                                                 PivotGridValueType.GrandTotal AndAlso matchCell.Field Is Nothing)
 
             ' Creates a list of cell definitions that represent newly created cells.
-            ' Two definitions are added to the list. The first one identifies
-            ' the Price cell, which has two nested cells (the Retail Price and Wholesale Price
+            ' Two definitions are added to the list. The first one identifies the Price cell,
+            ' which has two nested cells (the Retail Price and Wholesale Price
             ' data field headers). The second one identifies the Count cell with 
             ' one nested cell (the Quantity data field header).
             Dim cells As New List(Of FieldValueSplitData)(2)
